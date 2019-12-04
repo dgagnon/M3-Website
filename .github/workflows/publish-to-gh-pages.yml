@@ -1,4 +1,4 @@
-name: Publish to https://m3.danielgagnon.info
+name: Publish to m3.danielgagnon.info
 
 on:
   push:
