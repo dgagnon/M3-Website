@@ -9,7 +9,7 @@ menu:
 ---
 
 {{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
+Work in Progress.  Feel free to contribute with a pull request!
 {{% /pageinfo %}}
 
 
