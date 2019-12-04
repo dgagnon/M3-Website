@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/tasks/beds/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/tasks/ponycopters/configuring-ponycopters/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/getting-started/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/examples/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/tasks/ponycopters/launching-ponycopters/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/tutorials/multi-bear/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/tasks/porridge/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/concepts/</loc>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/tasks/task/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/tutorials/tutorial2/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/tasks/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/tutorials/</loc>
+    <lastmod>2017-01-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/reference/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/contribution-guidelines/</loc>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="dgagnon.github.io/M3/fr/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="dgagnon.github.io/M3/docs/"
+                />
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/getting-started/example-page/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="dgagnon.github.io/M3/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="dgagnon.github.io/M3/"
+                />
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/reference/parameter-reference/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/docs/tasks/ponycopters/</loc>
+    <lastmod>2017-01-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/index.json</loc>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/about/</loc>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/community/</loc>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/features/</loc>
+  </url>
+  
+  <url>
+    <loc>dgagnon.github.io/M3/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="dgagnon.github.io/M3/fr/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="dgagnon.github.io/M3/search/"
+                />
+  </url>
+  
+</urlset>
