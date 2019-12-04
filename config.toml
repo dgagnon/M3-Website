@@ -1,4 +1,4 @@
-baseURL = "https://dgagnon.github.io/M3-Website/"
+baseURL = "https://m3.danielgagnon.info/"
 title = "M³ - Modern Monitoring & Management"
 
 enableRobotsTXT = true
@@ -9,7 +9,7 @@ theme = ["docsy"]
 # Will give values to .Lastmod etc.
 enableGitInfo = true
 
-publishDir = "docs"
+#publishDir = "docs"
 
 
 # Language settings
