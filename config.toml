@@ -1,4 +1,4 @@
-baseURL = "dgagnon.github.io/M3-Website/"
+baseURL = "https://dgagnon.github.io/M3-Website/"
 title = "M³ - Modern Monitoring & Management"
 
 enableRobotsTXT = true
