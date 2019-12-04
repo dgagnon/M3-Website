@@ -26,7 +26,7 @@ jobs:
     - name: Build
       run: hugo --minify
 
-    - run: echo "m3.danielgagnon.info" >> ./public/CNAME
+    - run: echo "m4system.com" >> ./public/CNAME
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
