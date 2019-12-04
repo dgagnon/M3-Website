@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>M³ – Core Tasks</title>
-    <link>https://dgagnon.github.io/M3-Website/docs/tasks/</link>
+    <link>https://m3.danielgagnon.info/docs/tasks/</link>
     <description>Recent content in Core Tasks on M³</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 05 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://dgagnon.github.io/M3-Website/docs/tasks/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://m3.danielgagnon.info/docs/tasks/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Bed and Chair Metrics</title>
-      <link>https://dgagnon.github.io/M3-Website/docs/tasks/beds/</link>
+      <link>https://m3.danielgagnon.info/docs/tasks/beds/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://dgagnon.github.io/M3-Website/docs/tasks/beds/</guid>
+      <guid>https://m3.danielgagnon.info/docs/tasks/beds/</guid>
       <description>
         
         
@@ -317,10 +317,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Porridge Assessment</title>
-      <link>https://dgagnon.github.io/M3-Website/docs/tasks/porridge/</link>
+      <link>https://m3.danielgagnon.info/docs/tasks/porridge/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://dgagnon.github.io/M3-Website/docs/tasks/porridge/</guid>
+      <guid>https://m3.danielgagnon.info/docs/tasks/porridge/</guid>
       <description>
         
         
@@ -618,10 +618,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Another Task</title>
-      <link>https://dgagnon.github.io/M3-Website/docs/tasks/task/</link>
+      <link>https://m3.danielgagnon.info/docs/tasks/task/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://dgagnon.github.io/M3-Website/docs/tasks/task/</guid>
+      <guid>https://m3.danielgagnon.info/docs/tasks/task/</guid>
       <description>
         
         
@@ -919,10 +919,10 @@ This is a warning with a title.
     
     <item>
       <title>Docs: Working with Ponycopters</title>
-      <link>https://dgagnon.github.io/M3-Website/docs/tasks/ponycopters/</link>
+      <link>https://m3.danielgagnon.info/docs/tasks/ponycopters/</link>
       <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://dgagnon.github.io/M3-Website/docs/tasks/ponycopters/</guid>
+      <guid>https://m3.danielgagnon.info/docs/tasks/ponycopters/</guid>
       <description>
         
         

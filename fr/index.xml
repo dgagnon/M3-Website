@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>M³ – TechOS</title>
-    <link>https://dgagnon.github.io/M3-Website/fr/</link>
+    <link>https://m3.danielgagnon.info/fr/</link>
     <description>Recent content in TechOS on M³</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://dgagnon.github.io/M3-Website/fr/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://m3.danielgagnon.info/fr/index.xml" rel="self" type="application/rss+xml" />
     
     
       
