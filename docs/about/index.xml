@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>M³ – About M³</title>
-    <link>dgagnon.github.io/M3/about/</link>
+    <link>dgagnon.github.io/M3-Website/about/</link>
     <description>Recent content in About M³ on M³</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="dgagnon.github.io/M3/about/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="dgagnon.github.io/M3-Website/about/index.xml" rel="self" type="application/rss+xml" />
     
     
       
