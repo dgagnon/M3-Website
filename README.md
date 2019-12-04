@@ -1,4 +1,7 @@
-# M³ 
-Modern Monitoring &amp; Management
+# Website for M³ 
 
-Coming Soon.
+[![Actions Status](https://github.com/dgagnon/M3-Website/workflows/gh-pages.yml/badge.svg)](https://github.com/dgagnon/M3-Website/actions)
+
+Modern Monitoring &amp; Management System
+
+Please submit a pull request to update https://m3.danielgagnon.info
