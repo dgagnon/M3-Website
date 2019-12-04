@@ -1,5 +1,5 @@
-baseURL = "https://m3.danielgagnon.info/"
-title = "M³ - Modern Monitoring & Management"
+baseURL = "https://m4system.com/"
+title = "M is for Modern Monitoring & Management"
 
 enableRobotsTXT = true
 
@@ -132,18 +132,18 @@ no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY
         desc = "Curious or interested about the project?"
 [[params.links.user]]
 	name ="Twitter"
-	url = "https://twitter.com/m3system"
+	url = "https://twitter.com/m4system"
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
 	name = "Stack Overflow"
-	url = "https://stackoverflow.com/questions/tagged/m3"
+	url = "https://stackoverflow.com/questions/tagged/m4system"
 	icon = "fab fa-stack-overflow"
         desc = "Practical questions and curated answers"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/dgagnon/m3"
+	url = "https://github.com/dgagnon/m4system"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 [[params.links.developer]]
