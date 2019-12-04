@@ -1,6 +1,6 @@
 # Website for M³ 
 
-[![Actions Status](https://github.com/dgagnon/M3-Website/workflows/Publish+to+https%3A%2F%2Fm3.danielgagnon.info/badge.svg)](https://github.com/dgagnon/M3-Website/actions)
+[![Actions Status](https://github.com/dgagnon/M3-Website/workflows/Publish%20to%20m3.danielgagnon.info/badge.svg)](https://github.com/dgagnon/M3-Website/actions)
 
 Modern Monitoring &amp; Management System
 
