@@ -796,9 +796,11 @@ This is a warning with a title.
 wget &lt;a href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py&lt;/a>
 python3.5 get-pip.py&lt;/p>
 &lt;h2 id="install-dependancies">Install Dependancies&lt;/h2>
-&lt;p>apt-get install libmemcached-dev libsnmp-dev&lt;/p>
+&lt;p>apt-get install libmemcached-dev libsnmp-dev libmariadb3&lt;/p>
 &lt;h2 id="install-requirements">Install requirements&lt;/h2>
 &lt;p>pip3.5 install -r requirements.txt&lt;/p>
+&lt;h2 id="fix-mariadb-librairy-paths">Fix mariadb librairy paths&lt;/h2>
+&lt;p>ln -s /usr/lib/arm-linux-gnueabihf/libmariadb.so.3 /usr/lib/arm-linux-gnueabihf/libmariadbclient.so.18&lt;/p>
 &lt;pre>&lt;code>This is the final element on the page and there should be no margin below this.
 &lt;/code>&lt;/pre></description></item><item><title>Docs: Porridge Assessment</title><link>https://m4system.com/docs/tasks/porridge/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://m4system.com/docs/tasks/porridge/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
