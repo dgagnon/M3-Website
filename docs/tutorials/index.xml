@@ -25,103 +25,20 @@ python3.5 get-pip.py&lt;/p>
 &lt;/ul>
 &lt;p>More information on building python modules on windows here: &lt;a href="https://wiki.python.org/moin/WindowsCompilers">https://wiki.python.org/moin/WindowsCompilers&lt;/a>&lt;/p>
 &lt;p>reboot&lt;/p>
-&lt;h2 id="install-rabbitmq">Install RabbitMQ&lt;/h2>
+&lt;p>cd to your folder&lt;/p>
+&lt;pre>&lt;code>pip install -r requirements.txt
+&lt;/code>&lt;/pre>&lt;h2 id="install-rabbitmq">Install RabbitMQ&lt;/h2>
 &lt;p>Follow the instruction here: &lt;a href="https://www.rabbitmq.com/install-windows.html">https://www.rabbitmq.com/install-windows.html&lt;/a>&lt;/p>
-&lt;h3 id="optional-install-mysql">(Optional) Install MySQL&lt;/h3>
-&lt;pre>&lt;code>This is a code block following a header.
-&lt;/code>&lt;/pre>&lt;p>Next level leggings before they sold out, PBR&amp;amp;B church-key shaman echo park. Kale chips occupy godard whatever pop-up freegan pork belly selfies. Gastropub Belinda subway tile woke post-ironic seitan. Shabby chic man bun semiotics vape, chia messenger bag plaid cardigan.&lt;/p>
-&lt;h4 id="header-4">Header 4&lt;/h4>
-&lt;ul>
-&lt;li>This is an unordered list following a header.&lt;/li>
-&lt;li>This is an unordered list following a header.&lt;/li>
-&lt;li>This is an unordered list following a header.&lt;/li>
-&lt;/ul>
-&lt;h5 id="header-5">Header 5&lt;/h5>
-&lt;ol>
-&lt;li>This is an ordered list following a header.&lt;/li>
-&lt;li>This is an ordered list following a header.&lt;/li>
-&lt;li>This is an ordered list following a header.&lt;/li>
-&lt;/ol>
-&lt;h6 id="header-6">Header 6&lt;/h6>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>What&lt;/th>
-&lt;th>Follows&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>A table&lt;/td>
-&lt;td>A header&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>A table&lt;/td>
-&lt;td>A header&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>A table&lt;/td>
-&lt;td>A header&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;p>There's a horizontal rule above and below this.&lt;/p>
-&lt;hr>
-&lt;p>Here is an unordered list:&lt;/p>
-&lt;ul>
-&lt;li>Liverpool F.C.&lt;/li>
-&lt;li>Chelsea F.C.&lt;/li>
-&lt;li>Manchester United F.C.&lt;/li>
-&lt;/ul>
-&lt;p>And an ordered list:&lt;/p>
-&lt;ol>
-&lt;li>Michael Brecker&lt;/li>
-&lt;li>Seamus Blake&lt;/li>
-&lt;li>Branford Marsalis&lt;/li>
-&lt;/ol>
-&lt;p>And an unordered task list:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input checked="" disabled="" type="checkbox">Create a Hugo theme&lt;/li>
-&lt;li>&lt;input checked="" disabled="" type="checkbox">Add task lists to it&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">Take a vacation&lt;/li>
-&lt;/ul>
-&lt;p>And a &amp;ldquo;mixed&amp;rdquo; task list:&lt;/p>
-&lt;ul>
-&lt;li>&lt;input disabled="" type="checkbox">Pack bags&lt;/li>
-&lt;li>?&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox">Travel!&lt;/li>
-&lt;/ul>
-&lt;p>And a nested list:&lt;/p>
-&lt;ul>
-&lt;li>Jackson 5
-&lt;ul>
-&lt;li>Michael&lt;/li>
-&lt;li>Tito&lt;/li>
-&lt;li>Jackie&lt;/li>
-&lt;li>Marlon&lt;/li>
-&lt;li>Jermaine&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>TMNT
-&lt;ul>
-&lt;li>Leonardo&lt;/li>
-&lt;li>Michelangelo&lt;/li>
-&lt;li>Donatello&lt;/li>
-&lt;li>Raphael&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>Definition lists can be used with Markdown syntax. Definition headers are bold.&lt;/p>
-&lt;dl>
-&lt;dt>Name&lt;/dt>
-&lt;dd>Godzilla&lt;/dd>
-&lt;dt>Born&lt;/dt>
-&lt;dd>1952&lt;/dd>
-&lt;dt>Birthplace&lt;/dt>
-&lt;dd>Japan&lt;/dd>
-&lt;dt>Color&lt;/dt>
-&lt;dd>Green&lt;/dd>
-&lt;/dl>
+&lt;h2 id="setup-snmp">Setup SNMP&lt;/h2>
+&lt;p>See: &lt;a href="https://blog.paessler.com/how-to-enable-snmp-on-your-operating-system">https://blog.paessler.com/how-to-enable-snmp-on-your-operating-system&lt;/a>&lt;/p>
+&lt;p>Allow localhost with community &amp;ldquo;public&amp;rdquo;&lt;/p>
+&lt;p>This will allow M4 to poll your local SNMP deamon to get some fresh data.&lt;/p>
+&lt;h2 id="setup-django">Setup Django&lt;/h2>
+&lt;p>migrations , revisions, cache table, fixtures, collectstatic&lt;/p>
+&lt;h2 id="run-m4">Run M4&lt;/h2>
+&lt;pre>&lt;code>start.bat
+&lt;/code>&lt;/pre>&lt;h2 id="login-to-m4">Login to M4&lt;/h2>
+&lt;p>http://127.0.0.1:8000&lt;/p>
+&lt;p>m4 / Changeme1!&lt;/p>
 &lt;pre>&lt;code>This is the final element on the page and there should be no margin below this.
 &lt;/code>&lt;/pre></description></item></channel></rss>
