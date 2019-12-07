@@ -22,8 +22,8 @@ reboot
 
 ## Install RabbitMQ
 
-- https://packages.erlang-solutions.com/erlang/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_22.1~windows_amd64.exe
-- rabbitmq-server-3.8.1.exe
+Follow the instruction here: https://www.rabbitmq.com/install-windows.html
+
 
 ### (Optional) Install MySQL
 
