@@ -20,96 +20,43 @@ More information on building python modules on windows here: https://wiki.python
 
 reboot
 
+cd to your folder
+
+```
+pip install -r requirements.txt
+```
+
 ## Install RabbitMQ
 
 Follow the instruction here: https://www.rabbitmq.com/install-windows.html
 
 
-### (Optional) Install MySQL
+## Setup SNMP
+
+See: https://blog.paessler.com/how-to-enable-snmp-on-your-operating-system
+
+Allow localhost with community "public"
+
+This will allow M4 to poll your local SNMP deamon to get some fresh data.
+
+
+## Setup Django
+
+migrations , revisions, cache table, fixtures, collectstatic
+
+## Run M4
 
 ```
-This is a code block following a header.
+start.bat
 ```
 
-Next level leggings before they sold out, PBR&B church-key shaman echo park. Kale chips occupy godard whatever pop-up freegan pork belly selfies. Gastropub Belinda subway tile woke post-ironic seitan. Shabby chic man bun semiotics vape, chia messenger bag plaid cardigan. 
+## Login to M4
 
-#### Header 4
+http://127.0.0.1:8000
 
-* This is an unordered list following a header.
-* This is an unordered list following a header.
-* This is an unordered list following a header.
+m4 / Changeme1!
 
-##### Header 5
 
-1. This is an ordered list following a header.
-2. This is an ordered list following a header.
-3. This is an ordered list following a header.
-
-###### Header 6
-
-| What      | Follows         |
-|-----------|-----------------|
-| A table   | A header        |
-| A table   | A header        |
-| A table   | A header        |
-
-----------------
-
-There's a horizontal rule above and below this.
-
-----------------
-
-Here is an unordered list:
-
-* Liverpool F.C.
-* Chelsea F.C.
-* Manchester United F.C.
-
-And an ordered list:
-
-1. Michael Brecker
-2. Seamus Blake
-3. Branford Marsalis
-
-And an unordered task list:
-
-- [x] Create a Hugo theme
-- [x] Add task lists to it
-- [ ] Take a vacation
-
-And a "mixed" task list:
-
-- [ ] Pack bags
-- ?
-- [ ] Travel!
-
-And a nested list:
-
-* Jackson 5
-  * Michael
-  * Tito
-  * Jackie
-  * Marlon
-  * Jermaine
-* TMNT
-  * Leonardo
-  * Michelangelo
-  * Donatello
-  * Raphael
-
-Definition lists can be used with Markdown syntax. Definition headers are bold.
-
-Name
-: Godzilla
-
-Born
-: 1952
-
-Birthplace
-: Japan
-
-Color
-: Green
 
 
 ```
