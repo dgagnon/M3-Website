@@ -12,11 +12,11 @@ This setup is not designed for production use.
 
 ## Install Python
 
-Install vcc++ 2015, 2017 and build tools
+Install vcc++ 2015 and build tools
 - https://www.python.org/ftp/python/3.5.1/python-3.5.1-amd64.exe
-- https://download.microsoft.com/download/9/3/F/93FCF1E7-E6A4-478B-96E7-D4B285925B00/vc_redist.x64.exe
-- https://download.microsoft.com/download/E/E/D/EEDF18A8-4AED-4CE0-BEBE-70A83094FC5A/BuildTools_Full.exe
-- blob:https://visualstudio.microsoft.com/86c60ed6-fd91-4649-adb5-1f6759c3f79f
+- https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2019
+
+More information on building python modules on windows here: https://wiki.python.org/moin/WindowsCompilers
 
 reboot
 
