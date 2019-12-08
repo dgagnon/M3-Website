@@ -62,4 +62,6 @@ python3.5 manage.py loaddata fixtures/webview.json
 &lt;p>Mobile Friendly&lt;/p>
 &lt;p>&lt;img src="https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot5.PNG" alt="Mobile Friendly">&lt;/p>
 &lt;p>More mobile friendliness&lt;/p>
-&lt;p>&lt;img src="https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot6.PNG" alt="More mobile friendliness">&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot6.PNG" alt="More mobile friendliness">&lt;/p>
+&lt;p>Comes with a backend Backend&lt;/p>
+&lt;p>&lt;img src="https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot7.PNG" alt="Comes with a backend">&lt;/p></description></item></channel></rss>
