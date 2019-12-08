@@ -14,9 +14,7 @@ python3.5 get-pip.py&lt;/p>
 &lt;p>ln -s /usr/lib/arm-linux-gnueabihf/libmariadb.so.3 /usr/lib/arm-linux-gnueabihf/libmariadbclient.so.18&lt;/p>
 &lt;pre>&lt;code>This is the final element on the page and there should be no margin below this.
 &lt;/code>&lt;/pre></description></item><item><title>Docs: Install on Window (Dev)</title><link>https://m4system.com/docs/tutorials/windows/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://m4system.com/docs/tutorials/windows/</guid><description>
-&lt;div class="pageinfo pageinfo-primary">
-&lt;p>This setup is not designed for production use.&lt;/p>
-&lt;/div>
+&lt;p>&lt;a href="https://github.com/dgagnon/m4system/actions">&lt;img src="https://github.com/dgagnon/m4system/workflows/M4%20Unit%20Test/badge.svg" alt="Actions Status">&lt;/a>&lt;/p>
 &lt;h2 id="install-python">Install Python&lt;/h2>
 &lt;p>Install vcc++ 2015 and build tools&lt;/p>
 &lt;ul>
@@ -29,16 +27,39 @@ python3.5 get-pip.py&lt;/p>
 &lt;pre>&lt;code>pip install -r requirements.txt
 &lt;/code>&lt;/pre>&lt;h2 id="install-rabbitmq">Install RabbitMQ&lt;/h2>
 &lt;p>Follow the instruction here: &lt;a href="https://www.rabbitmq.com/install-windows.html">https://www.rabbitmq.com/install-windows.html&lt;/a>&lt;/p>
+&lt;pre>&lt;code>rabbitmqctl add_user m4 changeme
+rabbitmqctl add_vhost m4
+rabbitmqctl set_user_tags m4 m4
+rabbitmqctl set_permissions -p m4 m4 &amp;quot;.*&amp;quot; &amp;quot;.*&amp;quot; &amp;quot;.*&amp;quot;
+&lt;/code>&lt;/pre>&lt;h2 id="install-lessc">Install lessc&lt;/h2>
+&lt;p>npm install lessc -g&lt;/p>
 &lt;h2 id="setup-snmp">Setup SNMP&lt;/h2>
 &lt;p>See: &lt;a href="https://blog.paessler.com/how-to-enable-snmp-on-your-operating-system">https://blog.paessler.com/how-to-enable-snmp-on-your-operating-system&lt;/a>&lt;/p>
 &lt;p>Allow localhost with community &amp;ldquo;public&amp;rdquo;&lt;/p>
 &lt;p>This will allow M4 to poll your local SNMP deamon to get some fresh data.&lt;/p>
 &lt;h2 id="setup-django">Setup Django&lt;/h2>
 &lt;p>migrations , revisions, cache table, fixtures, collectstatic&lt;/p>
-&lt;h2 id="run-m4">Run M4&lt;/h2>
+&lt;h2 id="load-the-fixtures">Load the fixtures&lt;/h2>
+&lt;pre>&lt;code>python3.5 manage.py loaddata fixtures/auth.json
+python3.5 manage.py loaddata fixtures/user.json
+python3.5 manage.py loaddata fixtures/djcelery.json
+python3.5 manage.py loaddata fixtures/scheduler.json
+python3.5 manage.py loaddata fixtures/webview.json
+&lt;/code>&lt;/pre>&lt;h2 id="run-m4">Run M4&lt;/h2>
 &lt;pre>&lt;code>start.bat
 &lt;/code>&lt;/pre>&lt;h2 id="login-to-m4">Login to M4&lt;/h2>
 &lt;p>http://127.0.0.1:8000&lt;/p>
 &lt;p>m4 / Changeme1!&lt;/p>
-&lt;pre>&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;h2 id="screenshots">Screenshots&lt;/h2>
+&lt;p>Frontend notifications of polling errors&lt;/p>
+&lt;p>&lt;img src="https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot%201.png" alt="Frontend notifications of polling errors">&lt;/p>
+&lt;p>Tiles are red when in critical status&lt;/p>
+&lt;p>&lt;img src="https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot%202.PNG" alt="Tiles are red when in critical status">&lt;/p>
+&lt;p>A Threshold fails a check which fails a SLA&lt;/p>
+&lt;p>&lt;img src="https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot%203.PNG" alt="A Threshold fails a check which fails a SLA">&lt;/p>
+&lt;p>Can also be a warning, where we notify but are not yet in trouble.&lt;/p>
+&lt;p>&lt;img src="https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot4.PNG" alt="Can also be a warning, where we notify but are not yet in trouble.">&lt;/p>
+&lt;p>Mobile Friendly&lt;/p>
+&lt;p>&lt;img src="https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot5.PNG" alt="Mobile Friendly">&lt;/p>
+&lt;p>More mobile friendliness&lt;/p>
+&lt;p>&lt;img src="https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot6.PNG" alt="More mobile friendliness">&lt;/p></description></item></channel></rss>
