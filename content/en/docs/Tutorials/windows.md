@@ -1,14 +1,13 @@
 ---
 title: "Install on Window (Dev)"
 date: 2017-01-05
-weight: 5
-description: >
+description:
   A full guide to install and setup M4 on a Windows machine.
+  This setup is not designed for production use.
 ---
 
-{{% pageinfo %}}
-This setup is not designed for production use.
-{{% /pageinfo %}}
+[![Actions Status](https://github.com/dgagnon/m4system/workflows/M4%20Unit%20Test/badge.svg)](https://github.com/dgagnon/m4system/actions)
+
 
 ## Install Python
 
@@ -30,6 +29,16 @@ pip install -r requirements.txt
 
 Follow the instruction here: https://www.rabbitmq.com/install-windows.html
 
+```
+rabbitmqctl add_user m4 changeme
+rabbitmqctl add_vhost m4
+rabbitmqctl set_user_tags m4 m4
+rabbitmqctl set_permissions -p m4 m4 ".*" ".*" ".*"
+```
+
+## Install lessc
+
+npm install lessc -g
 
 ## Setup SNMP
 
@@ -44,6 +53,16 @@ This will allow M4 to poll your local SNMP deamon to get some fresh data.
 
 migrations , revisions, cache table, fixtures, collectstatic
 
+## Load the fixtures
+
+```
+python3.5 manage.py loaddata fixtures/auth.json
+python3.5 manage.py loaddata fixtures/user.json
+python3.5 manage.py loaddata fixtures/djcelery.json
+python3.5 manage.py loaddata fixtures/scheduler.json
+python3.5 manage.py loaddata fixtures/webview.json
+```
+
 ## Run M4
 
 ```
@@ -57,8 +76,28 @@ http://127.0.0.1:8000
 m4 / Changeme1!
 
 
+## Screenshots
 
+Frontend notifications of polling errors
 
-```
-This is the final element on the page and there should be no margin below this.
-```
+![Frontend notifications of polling errors](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot%201.png)
+
+Tiles are red when in critical status
+
+![Tiles are red when in critical status](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot%202.PNG)
+
+A Threshold fails a check which fails a SLA
+
+![A Threshold fails a check which fails a SLA](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot%203.PNG)
+
+Can also be a warning, where we notify but are not yet in trouble.
+
+![Can also be a warning, where we notify but are not yet in trouble.](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot4.PNG)
+
+Mobile Friendly
+
+![Mobile Friendly](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot5.PNG)
+
+More mobile friendliness
+
+![More mobile friendliness](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot6.PNG)
