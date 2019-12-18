@@ -19,7 +19,7 @@ defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "taxonomyTerm", "RSS"]
 
 # Highlighting config
 pygmentsCodeFences = true
@@ -29,6 +29,14 @@ pygmentsUseClassic = false
 #pygmentsOptions = "linenos=table"
 # See https://help.farbox.com/pygments.html
 pygmentsStyle = "tango"
+
+disableHugoGeneratorInject = true
+
+[outputs]
+home = ["HTML", "AMP"]
+page = ["HTML", "AMP"]
+section = ["HTML", "AMP"]
+
 
 # Configure how URLs look like per section.
 [permalinks]
@@ -74,7 +82,7 @@ time_format_blog = "02.01.2006"
 
 [params]
 copyright = "M4 System"
-privacy_policy = "/privacy"
+privacy_policy = "privacy/"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -98,7 +106,7 @@ github_project_repo = "https://github.com/m4system/m4system-application"
 algolia_docsearch = false
 
 # Enable Lunr.js offline search
-offlineSearch = false
+offlineSearch = true
 
 # User interface configuration
 [params.ui]

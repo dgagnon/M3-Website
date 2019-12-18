@@ -1,13 +1,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-{{ hugo.Generator }}
 {{ if eq (getenv "HUGO_ENV") "production" }}
 <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
 {{ else }}
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 {{ end }}
 {{ range .AlternativeOutputFormats -}}
-<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type | safeHTML  }}" href="{{ .Permalink | safeURL }}">
+
 {{ end -}}
 {{ partialCached "favicons.html" . }}
 <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
@@ -25,6 +25,6 @@
   crossorigin="anonymous"></script>
 {{ if and (.Site.Params.offlineSearch) (not .Site.Params.gcs_engine_id) }}
 <script src="https://unpkg.com/lunr@2.1.6/lunr.js"></script>
-<script src="/js/offline-search.js"></script>
+<script src="{{ "js/offline-search.js" | relURL }}"></script>
 {{end}}
 {{ partial "hooks/head-end.html" . }}
