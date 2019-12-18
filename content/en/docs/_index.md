@@ -21,4 +21,5 @@ Other content such as marketing material, case studies, and community updates sh
 
 Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
 
+<script>window.fwSettings={'widget_id':60000000228};!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}()</script><script type='text/javascript' src='https://widget.freshworks.com/widgets/60000000228.js' async defer></script>
 
