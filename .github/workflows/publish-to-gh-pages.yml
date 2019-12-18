@@ -24,7 +24,7 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo -e production --minify
+      run: env HUGO_ENV="production" hugo -e production --minify
 
     - run: echo "m4system.ca" >> ./public/CNAME
 
