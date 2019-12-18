@@ -1,4 +1,4 @@
-baseURL = "https://m4system.com/"
+baseURL = "https://m4system.ca/"
 title = "M is for Modern Monitoring & Management"
 
 enableRobotsTXT = true
@@ -50,7 +50,7 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-153843926-1"
+id = "UA-154726125-1"
 
 # Language configuration
 
@@ -62,8 +62,8 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.fr]
-title = "M³"
-description = "Site web pour M³"
+title = "M4"
+description = "Site web pour M4"
 languageName ="Français"
 contentDir = "content/fr"
 time_format_default = "02.01.2006"
@@ -73,7 +73,7 @@ time_format_blog = "02.01.2006"
 # Everything below this are Site Params
 
 [params]
-copyright = "Daniel Gagnon"
+copyright = "M4 System"
 privacy_policy = "/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -84,9 +84,9 @@ privacy_policy = "/privacy"
 version_menu = "Releases"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/dgagnon/M4-Website"
+github_repo = "https://github.com/m4system/m4system.ca"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/dgagnon/M4-Website"
+github_project_repo = "https://github.com/m4system/m4system-application"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
@@ -120,14 +120,14 @@ footer_about_disable = true
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/dgagnon/m4/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/dgagnon/m4/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/m4system/m4system.ca/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/m4system/m4system.ca/issues/new">tell us how we can improve</a>.'
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
 	name = "Drop Us a Mail"
-	url = "mailto:moi@danielgagnon.info"
+	url = "mailto:info@m4system.ca"
 	icon = "fa fa-envelope"
         desc = "Curious or interested about the project?"
 [[params.links.user]]
@@ -143,7 +143,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/dgagnon/m4/issues/n
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/dgagnon/m4system"
+	url = "https://github.com/m4system/m4system-application"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 [[params.links.developer]]
