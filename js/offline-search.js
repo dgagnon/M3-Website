@@ -14,9 +14,13 @@ $(window).on('load', function() {
     // Get dom objects for the elements we'll be interacting with
     $searchResults = document.getElementById('search-results');
     $searchInput   = document.getElementById('search-input');
+    $file = "/index.json";
+    if ($searchInput.dataset.index != undefined) {
+        $file = $searchInput.dataset.index;
+    }
 
     request.overrideMimeType("application/json");
-    request.open("GET", "/index.json", true); // Request the JSON file created during build
+    request.open("GET", $file, true); // Request the JSON file created during build
     request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
         // Success response received in requesting the search-index file
