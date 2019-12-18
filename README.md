@@ -1,6 +1,6 @@
 # Website for M4
 
-[![Actions Status](https://github.com/dgagnon/M3-Website/workflows/Publish%20to%20m4system.com/badge.svg)](https://github.com/dgagnon/M3-Website/actions)
+[![Actions Status](https://github.com/m4system/m4system.ca/workflows/Publish%20to%20m4system.ca/badge.svg)](https://github.com/m4system/m4system.ca/actions)
 
 M is for Modern Monitoring &amp; Management System
 
