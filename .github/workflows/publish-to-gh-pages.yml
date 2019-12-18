@@ -1,4 +1,4 @@
-name: Publish to m4system.com
+name: Publish to m4system.ca
 
 on:
   push:
