@@ -4,4 +4,4 @@
 
 M is for Modern Monitoring &amp; Management System
 
-Please submit a pull request to update https://m4system.com
+Please submit a pull request to update https://m4system.ca
