@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-WIP
+Work in Progress.  Feel free to contribute with a [Pull Request](https://github.com/m4system/m4system.ca/pulls)!
 {{% /pageinfo %}}
 
 ## Install python 3.5
