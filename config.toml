@@ -33,9 +33,9 @@ pygmentsStyle = "tango"
 disableHugoGeneratorInject = true
 
 [outputs]
-home = ["HTML", "AMP"]
-page = ["HTML", "AMP"]
-section = ["HTML", "AMP"]
+home = ["HTML"]
+page = ["HTML"]
+section = ["HTML"]
 
 
 # Configure how URLs look like per section.
@@ -69,6 +69,42 @@ description = "Website for the Modern Monitoring & Management system"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+[languages.en.params]
+
+[languages.en.params.links]
+# End user relevant links. These will show up on left side of footer and in the community page if you have one.
+[[languages.en.params.links.user]]
+	name = "Drop Us a Mail"
+	url = "mailto:info@m4system.ca"
+	icon = "fa fa-envelope"
+        desc = "Curious or interested about the project?"
+[[languages.en.params.links.user]]
+	name ="Twitter"
+	url = "https://twitter.com/m4_system"
+	icon = "fab fa-twitter"
+        desc = "Follow us on Twitter to get the latest news!"
+[[languages.en.params.links.user]]
+	name = "Stack Overflow"
+	url = "https://stackoverflow.com/questions/tagged/m4system"
+	icon = "fab fa-stack-overflow"
+        desc = "Practical questions and curated answers"
+# Developer relevant links. These will show up on right side of footer and in the community page if you have one.
+[[languages.en.params.links.developer]]
+	name = "GitHub"
+	url = "https://github.com/m4system/m4system.ca"
+	icon = "fab fa-github"
+        desc = "Development of the website takes place here!"
+[[languages.en.params.links.developer]]
+	name = "Slack"
+	url = "https://m4system.slack.com"
+	icon = "fab fa-slack"
+        desc = "Chat with other project developers"
+[[languages.en.params.links.developer]]
+	name = "Developer mailing list"
+	url = "https://groups.google.com/d/forum/m4system-general"
+	icon = "fa fa-envelope"
+        desc = "Discuss development issues around the project"
+
 [languages.fr]
 title = "M4"
 description = "Site web pour M4"
@@ -77,6 +113,41 @@ contentDir = "content/fr"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
+[languages.fr.params]
+
+[languages.fr.params.links]
+# End user relevant links. These will show up on left side of footer and in the community page if you have one.
+[[languages.fr.params.links.user]]
+	name = "Laisser nous un courriel"
+	url = "mailto:info@m4system.ca"
+	icon = "fa fa-envelope"
+        desc = "Curieux à propos du projet ?"
+[[languages.fr.params.links.user]]
+	name ="Twitter"
+	url = "https://twitter.com/m4_system"
+	icon = "fab fa-twitter"
+        desc = "Suivez-nous sur Twitter pour recevoir les dernières nouvelles"
+[[languages.fr.params.links.user]]
+	name = "Stack Overflow"
+	url = "https://stackoverflow.com/questions/tagged/m4system"
+	icon = "fab fa-stack-overflow"
+        desc = "Aidez-vous les un les autres!"
+# Developer relevant links. These will show up on right side of footer and in the community page if you have one.
+[[languages.fr.params.links.developer]]
+	name = "GitHub"
+	url = "https://github.com/m4system/m4system.ca"
+	icon = "fab fa-github"
+        desc = "Proposer une modification au site!"
+[[languages.fr.params.links.developer]]
+	name = "Slack"
+	url = "https://m4system.slack.com"
+	icon = "fab fa-slack"
+        desc = "Venez discuter avec les developpeurs."
+[[languages.fr.params.links.developer]]
+	name = "Mailing list générale"
+	url = "https://groups.google.com/d/forum/m4system-general"
+	icon = "fa fa-envelope"
+        desc = "Participez à la mailing list m4system-general@googlegroups.com."
 
 # Everything below this are Site Params
 
@@ -130,40 +201,6 @@ enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it! Please <a href="https://github.com/m4system/m4system.ca/issues/new">tell us how we can improve</a>.'
 no = 'Sorry to hear that. Please <a href="https://github.com/m4system/m4system.ca/issues/new">tell us how we can improve</a>.'
-
-[params.links]
-# End user relevant links. These will show up on left side of footer and in the community page if you have one.
-[[params.links.user]]
-	name = "Drop Us a Mail"
-	url = "mailto:info@m4system.ca"
-	icon = "fa fa-envelope"
-        desc = "Curious or interested about the project?"
-[[params.links.user]]
-	name ="Twitter"
-	url = "https://twitter.com/m4system"
-	icon = "fab fa-twitter"
-        desc = "Follow us on Twitter to get the latest news!"
-[[params.links.user]]
-	name = "Stack Overflow"
-	url = "https://stackoverflow.com/questions/tagged/m4system"
-	icon = "fab fa-stack-overflow"
-        desc = "Practical questions and curated answers"
-# Developer relevant links. These will show up on right side of footer and in the community page if you have one.
-[[params.links.developer]]
-	name = "GitHub"
-	url = "https://github.com/m4system/m4system-application"
-	icon = "fab fa-github"
-        desc = "Development takes place here!"
-[[params.links.developer]]
-	name = "Slack"
-	url = "https://example.org/slack"
-	icon = "fab fa-slack"
-        desc = "Chat with other project developers"
-[[params.links.developer]]
-	name = "Developer mailing list"
-	url = "https://example.org/mail"
-	icon = "fa fa-envelope"
-        desc = "Discuss development issues around the project"
 
 [markup.goldmark.renderer]
 unsafe=true
