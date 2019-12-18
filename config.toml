@@ -91,9 +91,9 @@ weight = 1
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[languages.en.params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/m4system/m4system.ca"
+	url = "https://github.com/m4system/m4system-application"
 	icon = "fab fa-github"
-        desc = "Development of the website takes place here!"
+        desc = "Development of M4 System takes place here!"
 [[languages.en.params.links.developer]]
 	name = "Slack"
 	url = "https://m4system.slack.com"
@@ -135,9 +135,9 @@ time_format_blog = "02.01.2006"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[languages.fr.params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/m4system/m4system.ca"
+	url = "https://github.com/m4system/m4system-application"
 	icon = "fab fa-github"
-        desc = "Proposer une modification au site!"
+        desc = "Participez au dévelopment de M4 System!"
 [[languages.fr.params.links.developer]]
 	name = "Slack"
 	url = "https://m4system.slack.com"
