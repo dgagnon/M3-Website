@@ -18,7 +18,10 @@ Install vcc++ 2015 and build tools
 - https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2019
 
 More information on building python modules on windows here: https://wiki.python.org/moin/WindowsCompilers
-Install getttext: https://mlocati.github.io/articles/gettext-iconv-windows.html
+
+[Install getttext](https://mlocati.github.io/articles/gettext-iconv-windows.html)
+
+[Install zanata-cli](http://docs.zanata.org/en/release/client/installation/windows-installation/)
 
 reboot
 
@@ -47,6 +50,8 @@ Allow localhost with community "public".
 
 This will allow M4 to poll your local SNMP deamon to get some fresh data.
 
+If you skip this step, the data point imported later will generate errors. 
+
 ## Setup M4
 
 ```
@@ -58,8 +63,6 @@ manage migrate djangoplugins
 manage migrate
 manage collectstatic
 ```
-
-migrations , revisions, cache table, fixtures, collectstatic
 
 ## Load the fixtures
 
