@@ -18,14 +18,9 @@ Install vcc++ 2015 and build tools
 - https://www.visualstudio.com/downloads/#build-tools-for-visual-studio-2019
 
 More information on building python modules on windows here: https://wiki.python.org/moin/WindowsCompilers
+Install getttext: https://mlocati.github.io/articles/gettext-iconv-windows.html
 
 reboot
-
-cd to your folder
-
-```
-pip install -r requirements.txt
-```
 
 ## Install RabbitMQ
 
@@ -40,18 +35,29 @@ rabbitmqctl set_permissions -p m4 m4 ".*" ".*" ".*"
 
 ## Install lessc
 
+```
 npm install lessc -g
+```
 
 ## Setup SNMP
 
 See: https://blog.paessler.com/how-to-enable-snmp-on-your-operating-system
 
-Allow localhost with community "public"
+Allow localhost with community "public". 
 
 This will allow M4 to poll your local SNMP deamon to get some fresh data.
 
+## Setup M4
 
-## Setup Django
+```
+pip3.5 install virtualenvwrapper-win
+git clone https://github.com/dgagnon/m4system.git mym4dev
+mkvirtualenv mym4dev
+pip3.5 install -e .
+manage migrate djangoplugins
+manage migrate
+manage collectstatic
+```
 
 migrations , revisions, cache table, fixtures, collectstatic
 
@@ -76,34 +82,3 @@ start.bat
 http://127.0.0.1:8000
 
 m4 / Changeme1!
-
-
-## Screenshots
-
-Frontend notifications of polling errors
-
-![Frontend notifications of polling errors](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot%201.png)
-
-Tiles are red when in critical status
-
-![Tiles are red when in critical status](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot%202.PNG)
-
-A Threshold fails a check which fails a SLA
-
-![A Threshold fails a check which fails a SLA](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot%203.PNG)
-
-Can also be a warning, where we notify but are not yet in trouble.
-
-![Can also be a warning, where we notify but are not yet in trouble.](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot4.PNG)
-
-Mobile Friendly
-
-![Mobile Friendly](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot5.PNG)
-
-More mobile friendliness
-
-![More mobile friendliness](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot6.PNG)
-
-Comes with a backend Backend 
-
-![Comes with a backend](https://github.com/dgagnon/M4-Website/blob/master/content/en/m4%20screenshot7.PNG)
