@@ -1,6 +1,6 @@
 ---
 title: "Install on Window (Dev)"
-date: 2017-01-05
+date: 2019-01-05
 description:
   A full guide to install and setup M4 on a Windows machine.
   This setup is not designed for production use.
