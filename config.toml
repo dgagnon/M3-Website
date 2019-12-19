@@ -63,7 +63,7 @@ id = "UA-154726125-3"
 
 [languages]
 [languages.en]
-title = "M4"
+title = "M4 System"
 description = "Website for the Modern Monitoring & Management system"
 languageName ="English"
 # Weight used for sorting.
@@ -105,7 +105,7 @@ weight = 1
         desc = "Discuss development issues around the project"
 
 [languages.fr]
-title = "M4"
+title = "Système M4"
 description = "Site web pour M4"
 languageName ="Français"
 contentDir = "content/fr"
