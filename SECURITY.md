@@ -4,7 +4,9 @@
 
 | Version | Supported          |
 | ------- | ------------------ |
-| < 2.0   | :x:                |
+| > 0.0   | :x:                |
+
+No support is offered for this website.
 
 ## Reporting a Vulnerability
 
