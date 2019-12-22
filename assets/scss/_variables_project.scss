@@ -4,6 +4,10 @@ Add styles or override variables from the theme here.
 
 */
 
-.text-center.mycover {
-  background-color: rgba(0,0,0,.50);
+.text-center.mycover p, .text-center.mycover h1 {
+  text-shadow: 2px 2px 2px black;
+}
+
+.td-overlay--dark::after {
+  background-color: rgba(21, 35, 57, 0.45) !important;
 }
